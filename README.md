@@ -1,3 +1,0 @@
-接口自动化测试框架Leo使用的实例
-
-mvn test命令执行 或者在eclipse中执行Entry 

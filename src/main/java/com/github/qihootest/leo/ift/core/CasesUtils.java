@@ -20,7 +20,7 @@ import com.github.qihootest.leo.toolkit.util.StringUtil;
 /**
  * 说明：用例执行的公共处理类，执行粒度是一个IftTestCase 即Excel用例文件中的一条用例，或Mysql数据库中的一条用例
  * 
- * @author @<a href='http://weibo.com/bwgang'>bwgang</a>(bwgang@163.com)<br/> 2013-01-10
+ * @author lianghui(lianghui@360.cn) 2013-01-10
  */
 public class CasesUtils {
 	/**
@@ -433,7 +433,6 @@ public class CasesUtils {
 		} else {
 			// 签名项原参数值不为空，且不等于null时，更新为计算后的签名值
 			value = signValue;
-			System.out.println("更新后的签名："+value);
 		}
 		caseMap.put(testCase.getSignKey(), value);
 		testCase.setCaseMap(caseMap);

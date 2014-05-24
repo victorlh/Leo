@@ -11,7 +11,7 @@ import com.github.qihootest.leo.toolkit.httpclient.ResponseInfo;
 /**
  * 说明：接口执行类，必须继承自类CasesUtils
  * 
- * @author 
+ * @author lianghui(lianghui@360.cn)
  *
  */
 public class DemoCasesUtils extends CasesUtils{

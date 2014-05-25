@@ -33,7 +33,7 @@ public class Entry3 {
 		if (!IftConf.updateJarFile(args)) return;
 		
 		//其它设置  
-		IftConf.ProxyEnable="N";//不启用代理，默认为启用
+		IftConf.ProxyEnable="Y";//启用代理，默认为不启用
 		
 		ExecTask exec = new ExecTask();
 		TestRunInfo runInfo = new TestRunInfo();
